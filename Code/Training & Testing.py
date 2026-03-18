@@ -13,7 +13,7 @@ np.random.seed(0)
 torch.manual_seed(0)
 
 
-data_dir = r"C:\Users\abhij\OneDrive\Desktop\Replicate #2\data\surface_d5_p0.001_k29"
+data_dir = r"<insert dataset file path>"
 
 
 X = np.load(os.path.join(data_dir, "X.npy"))
